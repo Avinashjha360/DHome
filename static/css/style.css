@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Montserrat-light';
+    max-width: 100%;
 }
 h1{
     margin: auto;
@@ -42,10 +43,7 @@ h2{
     width: 90%;
 
 }
-.top-heading{
-    padding-left: 10%; 
-   
-}
+
 .iphone{
     width:17%;
     transform: rotate(25deg);
@@ -63,11 +61,17 @@ h2{
 
             /* Feature section */
 #feature{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     text-align: center;
+    border-top: 1px solid black;
     position: relative;
-   
-   
+}
+#feature h2{
+    width: unset;
+    margin: auto;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Montserrat-Bold';
 }
 .feature-content{
     margin:150px auto;
@@ -86,6 +90,7 @@ h2{
 #customer-review{
     background-color: violet;
     color: white;
+    border: 1px solid black;
     padding-bottom: 40px;
 }
 
@@ -94,7 +99,6 @@ h2{
     margin: 15px auto ;
     border-radius: 100%;
 }
-
                 
                     /* Developer*/
 
@@ -106,7 +110,7 @@ h2{
     padding: 2px;
 }
 
-/* price section */
+                    /* price section */
 
 #price .container{
     padding: 60px;
@@ -134,7 +138,7 @@ h2{
 #users .container{
     padding: 100px;
 }
-            /* Donload section */
+                 /* Donload section */
 #download{
     background-color: brown;
     color: whitesmoke;
@@ -143,7 +147,7 @@ h2{
     margin: 100px auto 0px;
 }
 
-            /* footer section  */
+                /* footer section  */
 #footer .col{
     margin: 70px auto;
     
@@ -153,7 +157,7 @@ h2{
 @media(max-width:1200px)
 {   #title{
 
-    
+    text-align: center;
     padding-bottom: 20px;
   
 } 
@@ -161,7 +165,7 @@ h2{
     .iphone{
         width:80%;
         transform: rotate(0);
-        margin: 35px auto 0px 25px;
+        margin:20px auto;
         position: static;
     }
     h1{
